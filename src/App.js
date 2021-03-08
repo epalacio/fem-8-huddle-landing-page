@@ -1,13 +1,19 @@
 import React, { Fragment } from 'react';
 import './index.css';
-import imgTest from './img/icon-phone.svg'
+import Hero from './components/Hero';
+import Features from './components/Features';
+import Community from './components/Community';
+import Footer from './components/Footer';
+import Content from './components/subComponents/Content';
 
 const App = () => (
 //Fragment is temporary before setting up router
   <Fragment>
-    <h1 className="text-9xl">Hello world</h1>
-    <img className='h-8 bg-purple-900 p-2' src={imgTest} alt=""/>
-    <p>under img</p>
+    <Hero/>
+    <Features/>
+    <Community/>
+    <Footer/>
+    <Content/>
   </Fragment>
 );
 
