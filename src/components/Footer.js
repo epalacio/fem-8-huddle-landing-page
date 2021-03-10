@@ -8,7 +8,7 @@ import logo2 from '../img/logo2.svg';
 
 const Footer = () => {
     return (
-        <div>
+        <div className="text-white bg-darkCyan pt-20">
             <div>
                 <img src={logo2} alt=""/>
                 <div>

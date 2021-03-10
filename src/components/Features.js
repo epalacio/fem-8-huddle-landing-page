@@ -28,8 +28,8 @@ const Features = () => {
     ];
 
     const mappedFeatures = features.map((feature, index) =>
-        <div key={index}>
-            <img  className="" src={feature.img} alt="logo"/>
+        <div key={index} className="my-20">
+            <img  className="max-h-48 m-auto" src={feature.img} alt="logo"/>
             <Content
                 featureTitle={feature.title}
                 featureContent={feature.content}
@@ -38,7 +38,7 @@ const Features = () => {
     )
 
     return (
-        <div>
+        <div className="p-4 text-center">
             {mappedFeatures}
         </div>
     );
