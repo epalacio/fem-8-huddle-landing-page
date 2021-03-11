@@ -8,9 +8,9 @@ const Hero = () => {
     return (
         <Router>
         <div className="bg-contain bg-hero-mobile sm:bg-hero-desktop p-4">
-            <div className="grid grid-flow-row grid-cols-2 py-4 items-center">
+            <div className="flex justify-between items-center">
                 <img className="max-h-4" src={logo} alt="Text bubble in pink plus word Huddle"/>
-                <Link className="rounded-full bg-white py-2 text-xs shadow-md text-center" to='/'>Try It Free</Link>
+                <Link className="rounded-full bg-white px-8 py-4 text-xs shadow-md text-center" to='/'>Try It Free</Link>
             </div>
             <div className="my-20 px-5 text-center grid gap-8">
                 <div>
