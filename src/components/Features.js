@@ -28,7 +28,7 @@ const Features = () => {
     ];
 
     const mappedFeatures = features.map((feature, index) =>
-        <div key={index} className="my-20">
+        <div key={index} className="my-20 sm:grid sm:grid-cols-2">
             <img  className="max-h-48 m-auto" src={feature.img} alt="logo"/>
             <Content
                 featureTitle={feature.title}

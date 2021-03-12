@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className="grid grid-cols-1 gap-6 my-8 text-sm">
+            <div className="grid grid-cols-1 gap-6 my-8 text-sm sm:grid-cols-2">
                 <ul className="grid grid-cols-1 gap-6">
                     <li>About Us</li>
                     <li>What We Do</li>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="text-center text-sm">
-                <ul className="grid grid-cols-3 text-center justify-items-center mb-4 mx-12">
+                <ul className="grid grid-cols-3 text-center justify-items-center mb-4 mx-12 sm:mx-20 lg:mx-52 xl:mx-72">
                     <li className="border-white border-2 p-2 rounded-full w-12 h-12 text-center"><i className="pt-2 fab fa-facebook-f"></i></li>
                     <li className="border-white border-2 p-2 rounded-full w-12 h-12 text-center"><i className="pt-2 fab fa-twitter"></i></li>
                     <li className="border-white border-2 p-2 rounded-full w-12 h-12 text-center"><i className="pt-2 fab fa-instagram"></i></li>

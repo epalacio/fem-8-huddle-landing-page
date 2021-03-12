@@ -12,7 +12,7 @@ const Hero = () => {
                 <img className="max-h-4" src={logo} alt="Text bubble in pink plus word Huddle"/>
                 <Link className="rounded-full bg-white px-8 py-4 text-xs shadow-md text-center" to='/'>Try It Free</Link>
             </div>
-            <div className="my-20 px-5 text-center grid gap-8">
+            <div className="my-20 px-5 text-center grid gap-8 sm:grid-cols-2">
                 <div>
                     <h2 className="font-bold text-xl ">Build The Community Your Fans Will Love</h2>
                     <p className="text-sm py-6">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
