@@ -33,7 +33,7 @@ const Features = () => {
         },
     ];
 
-    const defImg = "max-h-48 m-auto "
+    const defImg = "max-h-48 m-auto xl:max-h-60 "
 
     const mappedFeatures = features.map((feature, index) =>
         <div key={index} className="my-20 sm:grid sm:grid-cols-2">
