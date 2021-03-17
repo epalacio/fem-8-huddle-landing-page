@@ -7,7 +7,7 @@ import mockups from '../img/illustration-mockups.svg'
 const Hero = () => {
     return (
         <Router>
-        <div className="bg-contain bg-paleCyan bg-hero-mobile sm:bg-hero-desktop p-4 xl:p-8">
+        <div className="bg-contain bg-paleCyan sm:bg-paleCyan bg-hero-mobile sm:bg-hero-desktop p-4 xl:p-8">
             <div className="flex justify-between items-center">
                 <img className="max-h-4 xl:max-h-8" src={logo} alt="Text bubble in pink plus word Huddle"/>
                 <Link className="rounded-full bg-white px-8 py-4 text-xs  xl:text-base shadow-md text-center" to='/'>Try It Free</Link>
