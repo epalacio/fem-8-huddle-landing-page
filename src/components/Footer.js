@@ -27,9 +27,9 @@ const Footer = () => {
             </div>
             <div className="grid grid-cols-1 gap-6 my-8 text-sm sm:grid-cols-2">
                 <ul className="grid grid-cols-1 gap-6">
-                    <li>About Us</li>
-                    <li>What We Do</li>
-                    <li>FAQ</li>
+                    <li><a href="/">About Us</a></li>
+                    <li><a href="/">What we do</a></li>
+                    <li><a href="/">FAQ</a></li>
                 </ul>
                 <ul className="grid grid-cols-1 gap-6">
                     <li>Career</li>

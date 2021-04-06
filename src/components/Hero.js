@@ -18,7 +18,7 @@ const Hero = () => {
                     <p className="text-sm py-6 lg:text-base">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
                     <Link className="self-start text-white rounded-full bg-pinkEsp px-12 py-2 text-xs lg:text-base shadow-md" to='/'>Get Started For Free</Link>
                 </div>
-                <img  className="max-h-50 m-auto" src={mockups} alt="Desktop and mobile mockups, no text"/>
+                <img  className="max-h-50 m-auto" src={mockups} alt="Images of deskto and mobile mockups"/>
             </div>
         </div>
         </Router>
